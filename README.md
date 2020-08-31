@@ -8,9 +8,9 @@
 
 预编译的二进制库目前只支持Windows x64平台的Python3.7、3.8版本，安装方法如下：
 	
-	`pip install fluent_corba-0.2.0-cp37-none-win_amd64.whl`
-	
-    	`pip install fluent_corba-0.2.0-cp38-none-win_amd64.whl`
+`pip install fluent_corba-0.2.0-cp37-none-win_amd64.whl`
+
+`pip install fluent_corba-0.2.0-cp38-none-win_amd64.whl`
 
 ## 使用方法
 通过以``-aas``批处理模式启动fluent，读取目录下的**aas_FluentId.txt**文件，然后通过CORBA连接到Fluent服务器发送TUI或者Scheme脚本命令。
