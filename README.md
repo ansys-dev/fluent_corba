@@ -2,7 +2,7 @@
 
 本模块提供对ansys fluent中CORBA连接的Python支持，作为后续开发pyfluent的基础模块。使用模块可以发送TUI和Scheme脚本命令到fluent实例，并自动去执行和返回结果。
 
-本模块依赖于ansys fluent提供的帮助文档，并使用来自于`[omniORB](https://sourceforge.net/projects/omniorb/)` 的编译库。
+本模块依赖于ansys fluent提供的帮助文档，并使用来自于[omniORB](https://sourceforge.net/projects/omniorb/) 的编译库。
 
 ## 安装使用
 
@@ -56,3 +56,7 @@ scheme = fluentUnit.getSchemeControllerInstance()
 print(scheme.execSchemeToString(r'(read-case "E:\Workdata\Fluent_Python\base-design.msh")'))
 print(scheme.doMenuCommandToString("/mesh/check"))
 ```
+
+## 问题反馈
+
+关注微信公众号：“ANSYS仿真与开发”，后台留言；或者邮件至：tguangs@163.com
