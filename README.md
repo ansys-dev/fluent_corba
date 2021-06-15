@@ -2,7 +2,7 @@
 
 本模块提供对ansys fluent中CORBA连接的Python支持，作为后续开发pyfluent的基础模块。使用模块可以发送TUI和Scheme脚本命令到fluent实例，并自动去执行和返回结果。
 
-本模块依赖于ansys fluent提供的帮助文档，并使用来自于`omniORB <https://sourceforge.net/projects/omniorb/>` 的编译库。
+本模块依赖于ansys fluent提供的帮助文档，并使用来自于`[omniORB](https://sourceforge.net/projects/omniorb/)` 的编译库。
 
 ## 安装使用
 
@@ -15,7 +15,8 @@
 ## 使用方法
 通过以``-aas``批处理模式启动fluent，读取目录下的**aas_FluentId.txt**文件，然后通过CORBA连接到Fluent服务器发送TUI或者Scheme脚本命令。
 
-```python# encoding: utf-8
+```python
+# encoding: utf-8
 import time
 import pathlib
 import os
